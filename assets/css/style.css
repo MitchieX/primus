@@ -2349,8 +2349,8 @@ Service Area
 .service-item {
   border-radius: 5px;
   position: relative;
-  cursor: default;
   margin-bottom: 30px;
+  cursor: default;
 }
 
 .service-item:hover::before {
@@ -2366,7 +2366,6 @@ Service Area
 .service-item:hover .images .service-item-icon {
   background-color: #ffffff;
   color: #38b6ff;
-  cursor: default;
 }
 
 .service-item:hover .images .service-item-more {
@@ -2375,17 +2374,14 @@ Service Area
 
 .service-item:hover .content {
   border-color: #162c52;
-  cursor: default;
 }
 
 .service-item:hover .content h3 a {
   color: #ffffff;
-  cursor: default;
 }
 
 .service-item:hover .content p {
   color: #d0ced3;
-  cursor: default;
 }
 
 .service-item::before {
@@ -2433,6 +2429,7 @@ Service Area
 
 .service-item .images a img {
   border-radius: 5px;
+  cursor: default;
 }
 
 .service-item .images .service-item-icon {
@@ -2447,7 +2444,6 @@ Service Area
   background-color: #38b6ff;
   border-radius: 5px;
   text-align: center;
-  cursor: default;
 }
 
 .service-item .images .service-item-more {
@@ -2484,6 +2480,7 @@ Service Area
 
 .service-item .content h3 a {
   color: #162c52;
+  cursor: default;
 }
 
 .service-item .content p {
